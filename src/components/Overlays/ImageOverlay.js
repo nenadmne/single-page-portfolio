@@ -6,7 +6,7 @@ import ProjectOverlay from "./ProjectOverlay";
 const ImageOverlay = (props) => {
   return (
     <div className="image-overlay">
-      <a target="_blank" href={props.link} onClick={props.click}>
+      <a target={props.target} href={props.link} onClick={props.click}>
         {props.name}
       </a>
       <a target="_blank" href={props.href}>

@@ -27,6 +27,7 @@ const Projects = () => {
                 href="https://github.com/nenadmne/online-store/tree/master/frontend"
                 click={clickHandler}
                 close={closeHandler}
+                link="#projects"
               />
             </div>
             <h4> Online-Store</h4>
@@ -42,6 +43,7 @@ const Projects = () => {
                 name="View project"
                 href="https://github.com/nenadmne/single-page-portfolio"
                 link="https://nenadmne.github.io/single-page-portfolio"
+                target="_blank"
               />
             </div>
             <h4> Developer Portfolio</h4>

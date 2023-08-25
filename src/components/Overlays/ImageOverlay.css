@@ -15,7 +15,6 @@
   z-index: 2;
 }
 
-.image-overlay span,
 .image-overlay a {
   color: #fff;
   font-size: 1.2rem;
@@ -28,8 +27,7 @@
   border-bottom: 2px solid rgb(78, 225, 160);
 }
 
-.image-overlay span:hover,
-.image-overlay a::after {
+.image-overlay a:hover{
   color: rgb(78, 225, 160);
 }
 

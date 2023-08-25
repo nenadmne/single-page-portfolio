@@ -78,6 +78,21 @@
     width: 100%;
   }
 
+  .project-image-container {
+    width: 90%;
+  }
+
+  .small-image-div img {
+    width: 20%;
+  }
+
+  .btn-secondary {
+    width:8rem;
+    font-size: 0.7rem;
+    padding: 0.2rem;
+    margin: 0 auto;
+  }
+
   .button-div {
     width: 80%;
   }
@@ -94,5 +109,12 @@
 
   .button-div {
     width: 80%;
+  }
+
+  .btn-secondary {
+    width:8rem;
+    font-size: 1rem;
+    padding: 0.2rem;
+    margin: 0 auto;
   }
 }
