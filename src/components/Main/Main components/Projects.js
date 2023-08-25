@@ -1,12 +1,18 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Projects.css";
 import storeImg from "../../../assets/Online-Store/Homepage.png";
 import portfolioImg from "../../../assets/Portfolio/Portfolio.png";
 import ImageOverlay from "../../Overlays/ImageOverlay";
 
 const Projects = () => {
+  const [show, setShow] = useState(false);
+  const clickHandler = () => {
+    setShow(true);
+  };
 
-
+  const closeHandler = () => {
+    setShow(false);
+  };
   return (
     <section id="projects" className="projects">
       <h3> Projects </h3>
@@ -16,8 +22,11 @@ const Projects = () => {
             <div className="image-container">
               <img src={storeImg} />
               <ImageOverlay
+                show={show}
                 name="Project intro"
                 href="https://github.com/nenadmne/online-store/tree/master/frontend"
+                click={clickHandler}
+                close={closeHandler}
               />
             </div>
             <h4> Online-Store</h4>
@@ -31,7 +40,8 @@ const Projects = () => {
               <img src={portfolioImg} />
               <ImageOverlay
                 name="View project"
-                href="https://google.com"
+                href="https://github.com/nenadmne/single-page-portfolio"
+                link="https://nenadmne.github.io/single-page-portfolio"
               />
             </div>
             <h4> Developer Portfolio</h4>

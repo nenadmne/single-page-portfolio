@@ -103,6 +103,11 @@
     margin-bottom: 1rem;
   }
 
+  .contact-text p{
+    font-size: 0.8rem;
+    line-height: normal;
+  }
+
   .contact-email {
     margin-top: 0.2rem;
   }
@@ -117,8 +122,8 @@
   }
 
   .footer:before {
-    left: -10%;
-    top: 50%;
+    left: -30%;
+    top: 45%;
     width: 100%;
     height: 50%;
     z-index: 0;
