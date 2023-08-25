@@ -1,0 +1,23 @@
+.left-arrow,
+.right-arrow {
+  font-size: 3rem;
+  cursor: pointer;
+  position: absolute;
+  top: 45%;
+}
+
+.left-arrow {
+  color: white;
+  transform: translateX(-120%);
+}
+
+.right-arrow {
+  left: 100%;
+  color: white;
+  transform: translateX(20%);
+}
+
+.left-arrow:hover,
+.right-arrow:hover {
+  scale: 1.05;
+}

@@ -1,0 +1,90 @@
+.language-info {
+  width: 1100px;
+  padding: 4.5rem 0 6rem 0;
+  position: relative;
+}
+
+.language-info ul {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  row-gap: 4rem;
+  flex-wrap: wrap;
+  list-style: none;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+}
+
+.language-info li {
+  width: 30%;
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+.language-info::before {
+  content: "";
+  background-image: url("../../../assets/pattern-rings.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: absolute;
+  right: -50%;
+  bottom: -55%;
+  width: 50%;
+  height: 50%;
+  z-index: -1;
+}
+
+@media (max-width: 650px) {
+  .language-info {
+    width: 100%;
+    padding: 2rem 0;
+  }
+
+  .language-info::before {
+    position: absolute;
+    right: 50%;
+    bottom: 50%;
+  }
+
+  .language-info ul {
+    row-gap: 1rem;
+  }
+
+  .language-info li {
+    width: 30%;
+    font-size: 1rem;
+    font-weight: 700;
+  }
+
+  .language-info::before {
+    right: -80%;
+    bottom: -100%;
+    width: 100%;
+    height: 100%;
+  }
+}
+
+@media (min-width: 650px) and (max-width: 1100px)  {
+  .language-info {
+    width: 100%;
+    padding: 3.5rem 0;
+  }
+
+  .language-info::before {
+    width: 100%;
+    height: 100%;
+    right: -60%;
+    bottom: -80%;
+  }
+
+  .language-info ul {
+    row-gap: 2rem;
+  }
+
+  .language-info li {
+    width: 30%;
+    font-size: 2rem;
+    font-weight: 700;
+  }
+}
