@@ -14,7 +14,7 @@ const Footer = () => {
         </p>
       </div>
       <div className="contact-email">
-        <span> cosovicnenad@gmail.com </span>
+        <span> cosovicnenad14@gmail.com </span>
         <ul>
           <li>
             <a target="_blank" href="https://github.com/nenadmne">

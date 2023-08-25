@@ -24,7 +24,7 @@ const Projects = () => {
               <ImageOverlay
                 show={show}
                 name="Project intro"
-                href="https://github.com/nenadmne/online-store/tree/master/frontend"
+                href="https://github.com/nenadmne/online-store/tree/master"
                 click={clickHandler}
                 close={closeHandler}
                 link="#projects"

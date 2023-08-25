@@ -83,6 +83,10 @@
   }
 
   .small-image-div img {
+    width: 15%;
+  }
+
+  .small-image-div img.current-img {
     width: 20%;
   }
 
