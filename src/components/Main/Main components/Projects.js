@@ -40,9 +40,7 @@ const Projects = () => {
             <div className="image-container">
               <img src={portfolioImg} />
               <ImageOverlay
-                name="View project"
                 href="https://github.com/nenadmne/single-page-portfolio"
-                link="https://nenadmne.github.io/single-page-portfolio"
                 target="_blank"
               />
             </div>

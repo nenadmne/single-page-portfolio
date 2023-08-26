@@ -17,7 +17,7 @@ const Header = () => {
         <li>
           <a
             target="_blank"
-            href="https://www.linkedin.com/in/nenad-cosovic-9550aa28a/"
+            href="https://www.linkedin.com/in/nenad-%C4%87osovi%C4%87-9550aa28a/"
           >
             <img src={linkedImage} />
           </a>
