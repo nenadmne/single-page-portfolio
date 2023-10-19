@@ -2,7 +2,15 @@ import React from "react";
 import "./Languages.css";
 
 const Languages = () => {
-  const items = ["HTML", "CSS", "Javascript", "React", "Node JS", "MySQL"];
+  const items = [
+    "HTML",
+    "CSS",
+    "Javascript",
+    "React",
+    "Next JS",
+    "Node JS",
+    "MySQL",
+  ];
   return (
     <section className="language-info">
       <ul>

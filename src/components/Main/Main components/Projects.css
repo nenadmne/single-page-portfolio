@@ -13,6 +13,8 @@
   list-style: none;
   padding: 0;
   display: flex;
+  flex-wrap: wrap;
+  column-gap: 2rem;
   align-items: flex-start;
   flex-direction: row;
   justify-content: space-between;
@@ -24,6 +26,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+  margin-bottom: 4rem;
 }
 
 .image-container:hover .image-overlay {
@@ -32,7 +35,7 @@
 
 .projects h4 {
   font-size: 1.5rem;
-  margin: 3rem 0 1rem 0;
+  margin: 1rem 0 1rem 0;
   text-align: center;
 }
 
@@ -51,15 +54,17 @@
   width: 100%;
 }
 
-.projects p,
-span {
-  text-align: center;
+.projects p {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  justify-content: center;
 }
 
 .projects span {
+  text-align: center;
   text-transform: uppercase;
   font-weight: 300;
-  margin-right: 18px;
 }
 
 @media (max-width: 650px) {
