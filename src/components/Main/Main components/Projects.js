@@ -5,7 +5,6 @@ import silkRoadImg from "../../../assets/SilkRoad/Silkroad.png";
 import libraryImg from "../../../assets/Online-Library/library.png";
 import ImageOverlay from "../../Overlays/ImageOverlay";
 import "./Projects.css";
-import { library } from "@fortawesome/fontawesome-svg-core";
 
 const Projects = () => {
   const [show, setShow] = useState(false);
@@ -68,6 +67,7 @@ const Projects = () => {
             <h4> Online-Library</h4>
             <p>
               <span> React JS + Vite  </span>
+              <span> Redux Toolkit  </span>
             </p>
           </li>
           <li>
@@ -83,6 +83,7 @@ const Projects = () => {
             <h4> Online-Store</h4>
             <p>
               <span> React JS + Vite  </span>
+              <span> Context API  </span>
               <span> MUI </span>
               <span> Responsive Design </span>
             </p>

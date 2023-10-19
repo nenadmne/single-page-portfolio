@@ -72,6 +72,16 @@
     width: 100%;
   }
 
+  .projects li {
+    width: 100%;
+    margin-bottom: 2rem;
+    border-bottom: 1px solid white;
+  }
+  .projects ul {
+    flex-wrap: nowrap;
+    flex-direction: column;
+  }
+
   .projects h3 {
     font-size: 2rem;
     margin-bottom: 3rem;
@@ -79,16 +89,12 @@
 
   .projects h4 {
     font-size: 1rem;
-    margin: 2rem 0 1rem 0;
+    margin: 1rem 0 0.5rem 0;
   }
 
   .projects p,
   .projects span {
     font-size: 0.6rem;
-  }
-
-  .projects span {
-    margin-right: 0.5rem;
   }
 }
 
