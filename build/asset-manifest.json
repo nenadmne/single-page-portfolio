@@ -1,7 +1,8 @@
 {
   "files": {
     "main.css": "/single-page-portfolio/static/css/main.1ea83111.css",
-    "main.js": "/single-page-portfolio/static/js/main.0acdc188.js",
+    "main.js": "/single-page-portfolio/static/js/main.9c6b2eb4.js",
+    "static/media/meetup.png": "/single-page-portfolio/static/media/meetup.c0d7c448c58eaf63585f.png",
     "static/media/Admin-Homepage.png": "/single-page-portfolio/static/media/Admin-Homepage.feba09c44dab68797d50.png",
     "static/media/Logged-Homepage.png": "/single-page-portfolio/static/media/Logged-Homepage.9dcd739e7de8c335f114.png",
     "static/media/Homepage.png": "/single-page-portfolio/static/media/Homepage.88b4f0c03e0c38230703.png",
@@ -12,7 +13,6 @@
     "static/media/profile.png": "/single-page-portfolio/static/media/profile.f02e8cde159c19c74c79.png",
     "static/media/ProductInfo-Review.png": "/single-page-portfolio/static/media/ProductInfo-Review.945b36ff357cdc7b8685.png",
     "static/media/ProductInfo.png": "/single-page-portfolio/static/media/ProductInfo.d82e934a04025c36c9d3.png",
-    "static/media/Portfolio.png": "/single-page-portfolio/static/media/Portfolio.676d688035729b583e8c.png",
     "static/media/library.png": "/single-page-portfolio/static/media/library.2e64d03aa34ab6a600a8.png",
     "static/media/Users.png": "/single-page-portfolio/static/media/Users.05a961986018b4df784b.png",
     "static/media/Item.png": "/single-page-portfolio/static/media/Item.5e1e397e83c725f642e7.png",
@@ -24,10 +24,10 @@
     "static/media/linked.svg": "/single-page-portfolio/static/media/linked.b92d57655f126449e38bcb0faeca49fd.svg",
     "static/media/pattern-rings.svg": "/single-page-portfolio/static/media/pattern-rings.e62a24d55bee668faa1f.svg",
     "main.1ea83111.css.map": "/single-page-portfolio/static/css/main.1ea83111.css.map",
-    "main.0acdc188.js.map": "/single-page-portfolio/static/js/main.0acdc188.js.map"
+    "main.9c6b2eb4.js.map": "/single-page-portfolio/static/js/main.9c6b2eb4.js.map"
   },
   "entrypoints": [
     "static/css/main.1ea83111.css",
-    "static/js/main.0acdc188.js"
+    "static/js/main.9c6b2eb4.js"
   ]
 }

@@ -1,6 +1,6 @@
 import { useState } from "react";
 import storeImg from "../../../assets/Online-Store/Homepage.png";
-import meetupImg from "../../../assets/Meetup/meetup.png"
+import meetupImg from "../../../assets/Meetup/meetup.png";
 import silkRoadImg from "../../../assets/SilkRoad/Silkroad.png";
 import libraryImg from "../../../assets/Online-Library/library.png";
 import ImageOverlay from "../../Overlays/ImageOverlay";
@@ -22,6 +22,7 @@ const Projects = () => {
         <ul>
           <li>
             <div className="image-container">
+              <h4> Online-Store</h4>
               <img src={storeImg} />
               <ImageOverlay
                 show={show}
@@ -32,7 +33,7 @@ const Projects = () => {
                 link="#projects"
               />
             </div>
-            <h4> Online-Store</h4>
+
             <p>
               <span> React JS </span>
               <span> Node JS </span>
@@ -42,6 +43,7 @@ const Projects = () => {
           </li>
           <li>
             <div className="image-container">
+              <h4> Meetups </h4>
               <img src={meetupImg} />
               <ImageOverlay
                 show={show}
@@ -51,7 +53,6 @@ const Projects = () => {
                 target="_blank"
               />
             </div>
-            <h4> Online-Store</h4>
             <p>
               <span> Next JS </span>
               <span> Responsive Design </span>
@@ -59,6 +60,7 @@ const Projects = () => {
           </li>
           <li>
             <div className="image-container">
+              <h4> Online-Library</h4>
               <img src={libraryImg} />
               <ImageOverlay
                 link="https://online-biblioteka.netlify.app"
@@ -67,14 +69,14 @@ const Projects = () => {
                 target="_blank"
               />
             </div>
-            <h4> Online-Library</h4>
             <p>
-              <span> React JS + Vite  </span>
-              <span> Redux Toolkit  </span>
+              <span> React JS + Vite </span>
+              <span> Redux Toolkit </span>
             </p>
           </li>
           <li>
             <div className="image-container">
+              <h4> Online-Store</h4>
               <img src={silkRoadImg} />
               <ImageOverlay
                 link="https://silkroad-online-store.netlify.app"
@@ -83,10 +85,9 @@ const Projects = () => {
                 target="_blank"
               />
             </div>
-            <h4> Online-Store</h4>
             <p>
-              <span> React JS + Vite  </span>
-              <span> Context API  </span>
+              <span> React JS + Vite </span>
+              <span> Context API </span>
               <span> MUI </span>
               <span> Responsive Design </span>
             </p>
