@@ -1,6 +1,6 @@
 import { useState } from "react";
 import storeImg from "../../../assets/Online-Store/Homepage.png";
-import portfolioImg from "../../../assets/Portfolio/Portfolio.png";
+import meetupImg from "../../../assets/Meetup/meetup.png"
 import silkRoadImg from "../../../assets/SilkRoad/Silkroad.png";
 import libraryImg from "../../../assets/Online-Library/library.png";
 import ImageOverlay from "../../Overlays/ImageOverlay";
@@ -42,15 +42,18 @@ const Projects = () => {
           </li>
           <li>
             <div className="image-container">
-              <img src={portfolioImg} />
+              <img src={meetupImg} />
               <ImageOverlay
-                href="https://github.com/nenadmne/single-page-portfolio"
+                show={show}
+                name="View Project"
+                href="https://github.com/nenadmne/meetups"
+                link="https://meetups-five-phi.vercel.app/"
                 target="_blank"
               />
             </div>
-            <h4> Developer Portfolio</h4>
+            <h4> Online-Store</h4>
             <p>
-              <span> React JS </span>
+              <span> Next JS </span>
               <span> Responsive Design </span>
             </p>
           </li>
