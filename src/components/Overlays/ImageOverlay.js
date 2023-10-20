@@ -1,9 +1,9 @@
-import React from "react";
-import "./ImageOverlay.css";
 import Portal from "../../UI/Portal";
 import ProjectOverlay from "./ProjectOverlay";
+import "./ImageOverlay.css";
 
 const ImageOverlay = (props) => {
+  console.log(props.close)
   return (
     <div className="image-overlay">
       <a target={props.target} href={props.link} onClick={props.click}>

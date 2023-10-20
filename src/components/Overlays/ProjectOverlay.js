@@ -1,8 +1,8 @@
 import { useState } from "react";
-import "./ProjectOverlay.css";
 import Button from "../../UI/Button";
 import Arrows from "../../UI/Arrows";
 import imageData from "../../UI/ImageData";
+import "./ProjectOverlay.css";
 
 const ProjectOverlay = (props) => {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -51,8 +51,8 @@ const ProjectOverlay = (props) => {
     setCurrentIndex(0);
   };
 
-  const clickHandler = (e) => {
-    if (e.target === e.currentTarget) {
+  const clickHandler = (event) => {
+    if (event.target === event.currentTarget) {
       backHandler();
       props.close();
     }

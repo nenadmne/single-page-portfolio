@@ -8,13 +8,7 @@ import "./Projects.css";
 
 const Projects = () => {
   const [show, setShow] = useState(false);
-  const clickHandler = () => {
-    setShow(true);
-  };
 
-  const closeHandler = () => {
-    setShow(false);
-  };
   return (
     <section id="projects" className="projects">
       <h3> Projects </h3>
@@ -28,8 +22,8 @@ const Projects = () => {
                 show={show}
                 name="Project intro"
                 href="https://github.com/nenadmne/online-store/tree/master"
-                click={clickHandler}
-                close={closeHandler}
+                click={() => setShow(true)}
+                close={() => setShow(false)}
                 link="#projects"
               />
             </div>
@@ -51,6 +45,8 @@ const Projects = () => {
                 href="https://github.com/nenadmne/meetups"
                 link="https://meetups-five-phi.vercel.app/"
                 target="_blank"
+                click={() => setShow(true)}
+                close={() => setShow(false)}
               />
             </div>
             <p>
@@ -67,6 +63,8 @@ const Projects = () => {
                 name="View Project"
                 href="https://github.com/nenadmne/Online-Library"
                 target="_blank"
+                click={() => setShow(true)}
+                close={() => setShow(false)}
               />
             </div>
             <p>
@@ -83,6 +81,8 @@ const Projects = () => {
                 name="View Project"
                 href="https://github.com/nenadmne/coinis-online-store"
                 target="_blank"
+                click={() => setShow(true)}
+                close={() => setShow(false)}
               />
             </div>
             <p>
