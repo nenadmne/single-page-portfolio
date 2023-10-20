@@ -45,7 +45,6 @@ const Projects = () => {
                 href="https://github.com/nenadmne/meetups"
                 link="https://meetups-five-phi.vercel.app/"
                 target="_blank"
-                click={() => setShow(true)}
                 close={() => setShow(false)}
               />
             </div>
@@ -63,7 +62,6 @@ const Projects = () => {
                 name="View Project"
                 href="https://github.com/nenadmne/Online-Library"
                 target="_blank"
-                click={() => setShow(true)}
                 close={() => setShow(false)}
               />
             </div>
@@ -81,7 +79,6 @@ const Projects = () => {
                 name="View Project"
                 href="https://github.com/nenadmne/coinis-online-store"
                 target="_blank"
-                click={() => setShow(true)}
                 close={() => setShow(false)}
               />
             </div>
