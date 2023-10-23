@@ -39,6 +39,7 @@ const Projects = () => {
             <p>
               <span> Next JS </span>
               <span> Responsive Design </span>
+              <span> MongoDB </span>
             </p>
           </li>
           <li>
