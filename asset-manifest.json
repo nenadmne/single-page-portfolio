@@ -1,33 +1,21 @@
 {
   "files": {
-    "main.css": "/single-page-portfolio/static/css/main.4a0bde53.css",
-    "main.js": "/single-page-portfolio/static/js/main.d24be1e1.js",
+    "main.css": "/single-page-portfolio/static/css/main.965e6b05.css",
+    "main.js": "/single-page-portfolio/static/js/main.f280473d.js",
     "static/media/meetup.png": "/single-page-portfolio/static/media/meetup.c0d7c448c58eaf63585f.png",
-    "static/media/Admin-Homepage.png": "/single-page-portfolio/static/media/Admin-Homepage.feba09c44dab68797d50.png",
-    "static/media/Logged-Homepage.png": "/single-page-portfolio/static/media/Logged-Homepage.9dcd739e7de8c335f114.png",
     "static/media/Homepage.png": "/single-page-portfolio/static/media/Homepage.88b4f0c03e0c38230703.png",
-    "static/media/Delete.png": "/single-page-portfolio/static/media/Delete.881d671cb1521358e702.png",
     "static/media/Silkroad.png": "/single-page-portfolio/static/media/Silkroad.723f38fc8956f034c868.png",
-    "static/media/Cart.png": "/single-page-portfolio/static/media/Cart.11c5c7f9032bfd792030.png",
-    "static/media/User.png": "/single-page-portfolio/static/media/User.5e6364ab87d71004f307.png",
     "static/media/profile.png": "/single-page-portfolio/static/media/profile.f02e8cde159c19c74c79.png",
-    "static/media/ProductInfo-Review.png": "/single-page-portfolio/static/media/ProductInfo-Review.945b36ff357cdc7b8685.png",
-    "static/media/ProductInfo.png": "/single-page-portfolio/static/media/ProductInfo.d82e934a04025c36c9d3.png",
     "static/media/library.png": "/single-page-portfolio/static/media/library.2e64d03aa34ab6a600a8.png",
-    "static/media/Users.png": "/single-page-portfolio/static/media/Users.05a961986018b4df784b.png",
-    "static/media/Item.png": "/single-page-portfolio/static/media/Item.5e1e397e83c725f642e7.png",
-    "static/media/User-city.png": "/single-page-portfolio/static/media/User-city.bda9dd1f7465457dec7d.png",
-    "static/media/Orders.png": "/single-page-portfolio/static/media/Orders.04debe14964fd9a90d8a.png",
-    "static/media/User-edit.png": "/single-page-portfolio/static/media/User-edit.525ada751c121d4a2a5e.png",
     "static/media/git.svg": "/single-page-portfolio/static/media/git.a8cf249d0c68cebc15d0ae901bbd5d90.svg",
     "index.html": "/single-page-portfolio/index.html",
     "static/media/linked.svg": "/single-page-portfolio/static/media/linked.b92d57655f126449e38bcb0faeca49fd.svg",
     "static/media/pattern-rings.svg": "/single-page-portfolio/static/media/pattern-rings.e62a24d55bee668faa1f.svg",
-    "main.4a0bde53.css.map": "/single-page-portfolio/static/css/main.4a0bde53.css.map",
-    "main.d24be1e1.js.map": "/single-page-portfolio/static/js/main.d24be1e1.js.map"
+    "main.965e6b05.css.map": "/single-page-portfolio/static/css/main.965e6b05.css.map",
+    "main.f280473d.js.map": "/single-page-portfolio/static/js/main.f280473d.js.map"
   },
   "entrypoints": [
-    "static/css/main.4a0bde53.css",
-    "static/js/main.d24be1e1.js"
+    "static/css/main.965e6b05.css",
+    "static/js/main.f280473d.js"
   ]
 }
