@@ -1,4 +1,3 @@
-import { useState } from "react";
 import storeImg from "../../../assets/Online-Store/Homepage.png";
 import meetupImg from "../../../assets/Meetup/meetup.png";
 import silkRoadImg from "../../../assets/SilkRoad/Silkroad.png";
@@ -7,8 +6,6 @@ import ImageOverlay from "../../Overlays/ImageOverlay";
 import "./Projects.css";
 
 const Projects = () => {
-  const [show, setShow] = useState(false);
-
   return (
     <section id="projects" className="projects">
       <h3> Projects </h3>
@@ -19,15 +16,10 @@ const Projects = () => {
               <h4> Online-Store</h4>
               <img src={storeImg} />
               <ImageOverlay
-                show={show}
-                name="Project intro"
-                href="https://github.com/nenadmne/online-store/tree/master"
-                click={() => setShow(true)}
-                close={() => setShow(false)}
-                link="#projects"
+                href="https://github.com/nenadmne/online-store"
+                link="https://online-store-orcin-psi.vercel.app/"
               />
             </div>
-
             <p>
               <span> React JS </span>
               <span> Node JS </span>
@@ -40,12 +32,8 @@ const Projects = () => {
               <h4> Meetups </h4>
               <img src={meetupImg} />
               <ImageOverlay
-                show={show}
-                name="View Project"
                 href="https://github.com/nenadmne/meetups"
                 link="https://meetups-five-phi.vercel.app/"
-                target="_blank"
-                close={() => setShow(false)}
               />
             </div>
             <p>
@@ -59,15 +47,13 @@ const Projects = () => {
               <img src={libraryImg} />
               <ImageOverlay
                 link="https://online-biblioteka.netlify.app"
-                name="View Project"
                 href="https://github.com/nenadmne/Online-Library"
-                target="_blank"
-                close={() => setShow(false)}
               />
             </div>
             <p>
               <span> React JS + Vite </span>
               <span> Redux Toolkit </span>
+              <span> Axios </span>
             </p>
           </li>
           <li>
@@ -76,10 +62,7 @@ const Projects = () => {
               <img src={silkRoadImg} />
               <ImageOverlay
                 link="https://silkroad-online-store.netlify.app"
-                name="View Project"
                 href="https://github.com/nenadmne/coinis-online-store"
-                target="_blank"
-                close={() => setShow(false)}
               />
             </div>
             <p>
