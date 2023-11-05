@@ -1,6 +1,7 @@
 import React from "react";
-import "./ProfileInfo.css";
+import { Link } from "react-scroll";
 import profilePicture from "../../../assets/profile.png";
+import "./ProfileInfo.css";
 
 const ProfileInfo = () => {
   return (
@@ -17,10 +18,10 @@ const ProfileInfo = () => {
         </p>
         <div className="hyperlinks">
           <p>
-            <a href="#footer"> Contact me </a>
+            <Link to="footer" smooth={true}> Contact me </Link>
           </p>
           <p>
-            <a href="#projects">Projects </a>
+            <Link to="projects" smooth={true}>Projects </Link>
           </p>
         </div>
       </div>
