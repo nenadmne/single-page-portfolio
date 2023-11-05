@@ -52,7 +52,7 @@ const Projects = () => {
               />
             </div>
             <p>
-              <span> React JS + Vite </span>
+              <span> React JS </span>
               <span> Redux Toolkit </span>
               <span> Axios </span>
             </p>
@@ -67,7 +67,7 @@ const Projects = () => {
               />
             </div>
             <p>
-              <span> React JS + Vite </span>
+              <span> React JS </span>
               <span> Context API </span>
               <span> MUI </span>
               <span> Responsive Design </span>

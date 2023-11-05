@@ -119,10 +119,10 @@
 
   .projects p,
   .projects span {
-    font-size: 1rem;
+    font-size: 0.8rem;
   }
 
-  .projects span {
-    margin-right: 1rem;
+  .projects p {
+    gap: 0.5rem;
   }
 }
