@@ -8,7 +8,9 @@ import "./Projects.css";
 const Projects = () => {
   return (
     <section id="projects" className="projects">
-      <h3> Projects </h3>
+      <h3 class="text-2xl mb-4 sm:text-3xl sm:mb-12 lg:text-4xl lg:mb-16 !important">
+        Projects
+      </h3>
       <div>
         <ul>
           <li>
