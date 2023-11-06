@@ -41,7 +41,6 @@ body,
 
   #root {
     padding: 5%;
-    overflow-x: hidden;
   }
 
   body,
@@ -56,13 +55,12 @@ body,
     min-width: 650px;
   }
 
-  #root {
-    padding: 0;
-    overflow-x: hidden;
-  }
-
   body,
   #root {
-    width: 650px;
+    width: 100%;
+  }
+
+  #root{
+    padding: 5%;
   }
 }

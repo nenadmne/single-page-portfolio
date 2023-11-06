@@ -3,7 +3,6 @@ import meetupImg from "../../../assets/Meetup/meetup.png";
 import silkRoadImg from "../../../assets/SilkRoad/Silkroad.png";
 import libraryImg from "../../../assets/Online-Library/library.png";
 import ImageOverlay from "../../Overlays/ImageOverlay";
-import "./Projects.css";
 
 const Projects = () => {
   const projectsData = [
@@ -38,36 +37,36 @@ const Projects = () => {
   ];
 
   return (
-    <section id="projects" class="w-full sm:mb-20 lg:w-[1100px]">
-      <h3 class="text-2xl mb-4 sm:text-3xl sm:mb-12 lg:text-4xl lg:mb-16">
+    <section id="projects" className="w-full sm:mb-20 lg:w-[1100px]">
+      <h3 className="text-2xl mb-4 sm:text-3xl sm:mb-12 lg:text-4xl lg:mb-16">
         Projects
       </h3>
       <div>
-        <ul class="flex-nowrap flex-col w-full list-none p-0 m-0 flex gap-4 items-start justify-between sm:flex-wrap sm:flex-row sm:gap-8">
+        <ul className="flex-nowrap flex-col w-full list-none p-0 m-0 flex gap-4 items-start justify-between sm:flex-wrap sm:flex-row sm:gap-8">
           {projectsData.map((project, index) => (
             <li
               key={index}
-              class="w-full mb-4 border-b border-gray-300 border-t-1 flex flex-col justify-center lg:w-[47%] lg:mb-0 lg:border-0"
+              className="w-full mb-4 border-b border-gray-300 border-t-1 flex flex-col justify-center lg:w-[47%] lg:mb-0 lg:border-0"
             >
-              <div class="w-full relative cursor-pointer mb-4 transform transition-transform hover:scale-105 hover:opacity-100">
-                <h4 class="my-2 text-center sm:text-xl sm:my-4">
+              <div className="w-full relative cursor-pointer mb-4 transform transition-transform hover:scale-105 hover:opacity-100">
+                <h4 className="my-2 text-center sm:text-xl sm:my-4">
                   {project.title}
                 </h4>
                 <img
                   src={project.imgSrc}
                   alt={project.title}
-                  class="w-[100%]"
+                  className="w-[100%]"
                 />
                 <ImageOverlay
                   href={project.githubLink}
                   link={project.websiteLink}
                 />
               </div>
-              <p class="mb-1 text-sm flex flex-row justify-center gap-4 sm:text-base sm:mb-0">
+              <p className="mb-1 text-sm flex flex-row justify-center gap-4 sm:text-base sm:mb-0">
                 {project.technologies.map((tech, i) => (
                   <span
                     key={i}
-                    class="text-sm text-center uppercase font-light sm:text-base"
+                    className="text-sm text-center uppercase font-light sm:text-base"
                   >
                     {tech}
                   </span>
