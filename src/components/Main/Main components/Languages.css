@@ -11,15 +11,15 @@
   row-gap: 4rem;
   flex-wrap: wrap;
   list-style: none;
-  justify-content: space-between;
   margin: 0;
   padding: 0;
 }
 
 .language-info li {
-  width: 30%;
+  width: 33.3%;
   font-size: 3rem;
   font-weight: 700;
+  text-align: center;
 }
 
 .language-info::before {
