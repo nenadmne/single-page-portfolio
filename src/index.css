@@ -50,7 +50,7 @@ body,
   }
 }
 
-@media (min-width: 650px) and (max-width: 1100px) {
+@media (min-width: 650px) and (max-width: 1200px) {
   html {
     min-width: 650px;
   }
@@ -60,7 +60,7 @@ body,
     width: 100%;
   }
 
-  #root{
+  #root {
     padding: 5%;
   }
 }

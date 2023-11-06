@@ -18,10 +18,14 @@ const ProfileInfo = () => {
         </p>
         <div className="hyperlinks">
           <p>
-            <Link to="footer" smooth={true}> Contact me </Link>
+            <Link to="footer" smooth={true}>
+              Contact me
+            </Link>
           </p>
           <p>
-            <Link to="projects" smooth={true}>Projects </Link>
+            <Link to="projects" smooth={true}>
+              Projects{" "}
+            </Link>
           </p>
         </div>
       </div>
