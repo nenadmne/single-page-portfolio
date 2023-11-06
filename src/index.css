@@ -27,6 +27,7 @@ body,
   display: flex;
   justify-content: center;
   align-items: center;
+  overflow-x: hidden;
 }
 
 #root {
@@ -46,7 +47,7 @@ body,
   body,
   #root {
     min-width: 375px;
-    width: 375px;
+    width: 100%;
   }
 }
 
