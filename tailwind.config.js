@@ -10,6 +10,7 @@ module.exports = {
       },
     },
     fontSize: {
+      xs: "0.6rem",
       sm: "0.8rem",
       base: "1rem",
       md: "1.2rem",
@@ -22,9 +23,11 @@ module.exports = {
     colors: {
       green: "rgb(78, 225, 160)",
       black: "rgba(21, 21, 21, 0.7)",
+      dark: "#242424",
       grey: "rgb(36, 36, 36)",
       white: "white",
       lightgray: "lightgray",
+      bio: "rgb(217, 217, 217)",
     },
     letterSpacing: {
       tight: "-0.2rem",

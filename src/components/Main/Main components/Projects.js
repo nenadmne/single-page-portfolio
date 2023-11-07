@@ -37,7 +37,7 @@ const Projects = () => {
   ];
 
   return (
-    <section id="projects" className="w-full sm:mb-20 lg:w-[1100px]">
+    <section id="projects" className="projects w-full sm:mb-20 lg:w-[1100px]">
       <h3 className="text-2xl mb-4 sm:text-3xl sm:mb-12 lg:text-4xl lg:mb-16">
         Projects
       </h3>
