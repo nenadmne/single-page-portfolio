@@ -27,7 +27,7 @@ const ProfileInfo = () => {
           {links.map((item, i) => (
             <p
               key={i}
-              className="text-xs sm:text-md w-fit pb-1 border-b-[2px] border-green tracking-normal sm:tracking-slightly_wider"
+              className="text-xs sm:text-md w-fit pb-1 border-b-2 border-green tracking-normal sm:tracking-slightly_wider hover:text-green hover:border-white"
             >
               <Link to={item.href} smooth className="cursor-pointer">
                 {item.name}
