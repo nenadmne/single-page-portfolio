@@ -11,7 +11,7 @@ const ProfileInfo = () => {
   return (
     <section className="flex flex-row w-full lg:w-[1100px] pb-8 sm:pb-20 border-b-[1px] border-white sm:gap-4">
       <div className="w-[70%]">
-        <h2 className="text-md sm:text-3xl lg:text-5xl font-bold w-full mb-12 sm:mb-8">
+        <h2 className="text-xl sm:text-3xl lg:text-5xl font-bold w-full mb-12 sm:mb-8">
           Nice to meet you! I'm
           <span className="underline decoration-green ml-2">Nenad Ćosović</span>
           .
