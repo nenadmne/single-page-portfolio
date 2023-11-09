@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/single-page-portfolio/static/css/main.b25eaf93.css",
-    "main.js": "/single-page-portfolio/static/js/main.b3d1e41e.js",
+    "main.css": "/single-page-portfolio/static/css/main.ce3c2e71.css",
+    "main.js": "/single-page-portfolio/static/js/main.034478fc.js",
     "static/media/meetup.png": "/single-page-portfolio/static/media/meetup.c0d7c448c58eaf63585f.png",
     "static/media/Homepage.png": "/single-page-portfolio/static/media/Homepage.88b4f0c03e0c38230703.png",
     "static/media/Silkroad.png": "/single-page-portfolio/static/media/Silkroad.723f38fc8956f034c868.png",
@@ -11,11 +11,11 @@
     "index.html": "/single-page-portfolio/index.html",
     "static/media/linked.svg": "/single-page-portfolio/static/media/linked.b92d57655f126449e38bcb0faeca49fd.svg",
     "static/media/pattern-rings.svg": "/single-page-portfolio/static/media/pattern-rings.e62a24d55bee668faa1f.svg",
-    "main.b25eaf93.css.map": "/single-page-portfolio/static/css/main.b25eaf93.css.map",
-    "main.b3d1e41e.js.map": "/single-page-portfolio/static/js/main.b3d1e41e.js.map"
+    "main.ce3c2e71.css.map": "/single-page-portfolio/static/css/main.ce3c2e71.css.map",
+    "main.034478fc.js.map": "/single-page-portfolio/static/js/main.034478fc.js.map"
   },
   "entrypoints": [
-    "static/css/main.b25eaf93.css",
-    "static/js/main.b3d1e41e.js"
+    "static/css/main.ce3c2e71.css",
+    "static/js/main.034478fc.js"
   ]
 }
