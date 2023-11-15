@@ -5,8 +5,9 @@ const Languages = () => {
   const items = [
     "HTML",
     "CSS",
-    "Javascript",
     "Tailwind",
+    "Javascript",
+    "Typescript",
     "React JS",
     "Next JS",
     "Node JS",
