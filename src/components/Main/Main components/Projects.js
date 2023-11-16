@@ -2,6 +2,7 @@ import storeImg from "../../../assets/Online-Store/Homepage.png";
 import meetupImg from "../../../assets/Meetup/meetup.png";
 import silkRoadImg from "../../../assets/SilkRoad/Silkroad.png";
 import libraryImg from "../../../assets/Online-Library/library.png";
+import sessionImg from "../../../assets/Session/SessionImg.png";
 import ImageOverlay from "../../Overlays/ImageOverlay";
 
 const Projects = () => {
@@ -33,6 +34,13 @@ const Projects = () => {
       githubLink: "https://github.com/nenadmne/coinis-online-store",
       websiteLink: "https://silkroad-online-store.netlify.app",
       technologies: ["React JS", "Context API", "MUI", "Responsive Design"],
+    },
+    {
+      title: "Book Session",
+      imgSrc: sessionImg,
+      githubLink: "https://github.com/nenadmne/typescript-sessions-page",
+      websiteLink: "https://book-a-session.vercel.app/",
+      technologies: ["Typescript", "Tailwind", "React JS", "Responsive Design"],
     },
   ];
 
