@@ -8,6 +8,15 @@ module.exports = {
         sm: "650px",
         lg: "1200px",
       },
+      animation: {
+        blurIn: "blurIn 1s ease-out forwards",
+      },
+      keyframes: {
+        blurIn: {
+          "0%": { opacity: 0, width: "0%", filter: "blur(20px)" },
+          "100%": { opacity: 1, width: "100%", filter: "blur(0px)" },
+        },
+      },
     },
     fontSize: {
       xs: "0.6rem",
@@ -36,6 +45,5 @@ module.exports = {
       wide: "0.2rem",
     },
   },
-
   plugins: [],
 };

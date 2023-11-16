@@ -1,8 +1,28 @@
-import React from "react";
+import { useState, useEffect } from "react";
 import { Link } from "react-scroll";
 import profilePicture from "../../../assets/profile.png";
 
 const ProfileInfo = () => {
+  // const [name, setName] = useState("");
+
+  // useEffect(() => {
+  //   const fullName = "Nenad Ćosović";
+  //   let currentText = "";
+  //   let index = 0;
+
+  //   const interval = setInterval(() => {
+  //     if (index === fullName.length) {
+  //       clearInterval(interval);
+  //     } else {
+  //       currentText += fullName[index];
+  //       setName(currentText);
+  //       index++;
+  //     }
+  //   }, 200);
+
+  //   return () => clearInterval(interval);
+  // }, []);
+
   const links = [
     { name: "Contact me", href: "footer" },
     { name: "Projects", href: "projects" },
@@ -13,8 +33,7 @@ const ProfileInfo = () => {
       <div className="w-[70%]">
         <h2 className="text-xl sm:text-3xl lg:text-5xl font-bold w-full mb-12 sm:mb-8">
           Nice to meet you! I'm
-          <span className="underline decoration-green ml-2">Nenad Ćosović</span>
-          .
+          <span className="underline decoration-green ml-2 animate-blurIn">Nenad Ćosović</span>
         </h2>
         <p className="text-sm sm:text-md w-full max-w-[300px] sm:max-w-[85%] lg:w-[550px] text-bio font-medium leading-0 sm:leading-7 m-0">
           Hailing from Montenegro, I'm a versatile developer with a penchant for
