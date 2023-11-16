@@ -1,7 +1,7 @@
 import ProfileInfo from "./Header components/ProfileInfo";
 import gitImage from "../../assets/git.svg";
 import linkedImage from "../../assets/linked.svg";
-import PatternRings from "../../assets/pattern-rings.svg";
+import PatternRings from "../../UI/PatternRings";
 
 const Header = () => {
   const socialLinks = [
@@ -31,13 +31,10 @@ const Header = () => {
         ))}
       </ul>
       <ProfileInfo />
-      <div className="absolute top-[20%] sm:top-0 left-[-20%] sm:left-0 transform translate-x-[-50%] z-[-1]">
-        <img
-          src={PatternRings}
-          alt="Pattern Rings"
-          className="w-[375px] sm:w-[530px] h-[150px] object-contain"
-        />
-      </div>
+      <PatternRings
+        divClass="absolute top-[20%] sm:top-0 left-[-20%] sm:left-0 transform translate-x-[-50%] z-[-1]"
+        imgClass="w-[375px] sm:w-[530px] h-[150px] object-contain"
+      />
     </div>
   );
 };

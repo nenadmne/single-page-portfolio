@@ -1,6 +1,6 @@
 import gitImage from "../../assets/git.svg";
 import linkedImage from "../../assets/linked.svg";
-import PatternRings from "../../assets/pattern-rings.svg";
+import PatternRings from "../../UI/PatternRings";
 
 const Footer = () => {
   const socialLinks = [
@@ -46,13 +46,10 @@ const Footer = () => {
           ))}
         </ul>
       </div>
-      <div className="absolute top-[35%] sm:top-[45%] lg:top-[35%] left-0 transform translate-x-[-50%] z-0">
-        <img
-          src={PatternRings}
-          alt="Pattern Rings"
-          className="w-[375px] sm:w-[530px] h-[150px] object-contain"
-        />
-      </div>
+      <PatternRings
+        divClass="absolute top-[35%] sm:top-[45%] lg:top-[30%] left-0 transform translate-x-[-50%] z-0"
+        imgClass="w-[375px] sm:w-[530px] h-[150px] object-contain"
+      />
     </footer>
   );
 };

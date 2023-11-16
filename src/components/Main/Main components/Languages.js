@@ -1,5 +1,5 @@
 import React from "react";
-import PatternRings from "../../../assets/pattern-rings.svg";
+import PatternRings from "../../../UI/PatternRings";
 
 const Languages = () => {
   const items = [
@@ -26,13 +26,10 @@ const Languages = () => {
           </li>
         ))}
       </ul>
-      <div className="absolute right-[-10%] sm:right-0 bottom-[-60%] sm:bottom-[-40%] transform translate-x-1/2 z-[-1]">
-        <img
-          src={PatternRings}
-          alt="Pattern Rings"
-          className="w-[375px] sm:w-[530px] h-[150px] object-contain"
-        />
-      </div>
+      <PatternRings
+        divClass="absolute right-[-10%] sm:right-0 bottom-[-55%] sm:bottom-[-35%] transform translate-x-1/2 z-[-1]"
+        imgClass="w-[375px] sm:w-[530px] h-[150px] object-contain"
+      />
     </section>
   );
 };
