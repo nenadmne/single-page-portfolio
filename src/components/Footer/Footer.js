@@ -1,6 +1,6 @@
 import gitImage from "../../assets/git.svg";
 import linkedImage from "../../assets/linked.svg";
-import "./Footer.css";
+import PatternRings from "../../assets/pattern-rings.svg";
 
 const Footer = () => {
   const socialLinks = [
@@ -17,7 +17,7 @@ const Footer = () => {
   return (
     <footer
       id="footer"
-      className="footer relative w-full bg-grey p-[5%] lg:py-20 flex flex-col justify-center items-center mt-8 sm:mt-12 lg:mt-16"
+      className="relative w-full bg-grey p-[5%] lg:py-20 flex flex-col justify-center items-center mt-8 sm:mt-12 lg:mt-16"
     >
       <div className="w-full lg:w-[1100px] border-b-[1px] border-lightgray">
         <h1 className="text-xl sm:text-3xl lg:text-4xl font-medium tracking-0 lg:tracking-tight mb-4 sm:mb-16">
@@ -45,6 +45,13 @@ const Footer = () => {
             </li>
           ))}
         </ul>
+      </div>
+      <div className="absolute top-[35%] sm:top-[45%] lg:top-[35%] left-0 transform translate-x-[-50%] z-0">
+        <img
+          src={PatternRings}
+          alt="Pattern Rings"
+          className="w-[375px] sm:w-[530px] h-[150px] object-contain"
+        />
       </div>
     </footer>
   );
