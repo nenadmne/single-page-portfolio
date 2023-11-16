@@ -31,6 +31,7 @@ module.exports = {
     },
     colors: {
       green: "rgb(78, 225, 160)",
+      blue: "#4169E1",
       black: "rgba(21, 21, 21, 0.7)",
       dark: "#242424",
       grey: "rgb(36, 36, 36)",
@@ -43,6 +44,9 @@ module.exports = {
       normal: "1px",
       slightly_wider: "2px",
       wide: "0.2rem",
+    },
+    boxShadow: {
+      shadow: "4px 4px 4px green",
     },
   },
   plugins: [],

@@ -29,11 +29,13 @@ const ProfileInfo = () => {
   ];
 
   return (
-    <section className="flex flex-row w-full lg:w-[1100px] pb-8 sm:pb-20 border-b-[1px] border-white sm:gap-4">
+    <section className="flex flex-row w-full lg:w-[1100px] pb-8 sm:pb-20 sm:gap-4">
       <div className="w-[70%]">
         <h2 className="text-xl sm:text-3xl lg:text-5xl font-bold w-full mb-12 sm:mb-8">
           Nice to meet you! I'm
-          <span className="underline decoration-green ml-2 animate-blurIn">Nenad Ćosović</span>
+          <span className="underline decoration-green ml-2 animate-blurIn">
+            Nenad Ćosović
+          </span>
         </h2>
         <p className="text-sm sm:text-md w-full max-w-[300px] sm:max-w-[85%] lg:w-[550px] text-bio font-medium leading-0 sm:leading-7 m-0">
           Hailing from Montenegro, I'm a versatile developer with a penchant for

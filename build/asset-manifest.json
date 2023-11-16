@@ -1,7 +1,8 @@
 {
   "files": {
-    "main.css": "/single-page-portfolio/static/css/main.ce3c2e71.css",
-    "main.js": "/single-page-portfolio/static/js/main.7fb1bec3.js",
+    "main.css": "/single-page-portfolio/static/css/main.77e4347a.css",
+    "main.js": "/single-page-portfolio/static/js/main.e6cf0fee.js",
+    "static/media/SessionImg.png": "/single-page-portfolio/static/media/SessionImg.379b36ef5edc5418911a.png",
     "static/media/meetup.png": "/single-page-portfolio/static/media/meetup.c0d7c448c58eaf63585f.png",
     "static/media/Homepage.png": "/single-page-portfolio/static/media/Homepage.88b4f0c03e0c38230703.png",
     "static/media/Silkroad.png": "/single-page-portfolio/static/media/Silkroad.723f38fc8956f034c868.png",
@@ -10,12 +11,12 @@
     "static/media/git.svg": "/single-page-portfolio/static/media/git.a8cf249d0c68cebc15d0ae901bbd5d90.svg",
     "index.html": "/single-page-portfolio/index.html",
     "static/media/linked.svg": "/single-page-portfolio/static/media/linked.b92d57655f126449e38bcb0faeca49fd.svg",
-    "static/media/pattern-rings.svg": "/single-page-portfolio/static/media/pattern-rings.e62a24d55bee668faa1f.svg",
-    "main.ce3c2e71.css.map": "/single-page-portfolio/static/css/main.ce3c2e71.css.map",
-    "main.7fb1bec3.js.map": "/single-page-portfolio/static/js/main.7fb1bec3.js.map"
+    "static/media/pattern-rings.svg": "/single-page-portfolio/static/media/pattern-rings.e62a24d55bee668faa1f245882fad1b7.svg",
+    "main.77e4347a.css.map": "/single-page-portfolio/static/css/main.77e4347a.css.map",
+    "main.e6cf0fee.js.map": "/single-page-portfolio/static/js/main.e6cf0fee.js.map"
   },
   "entrypoints": [
-    "static/css/main.ce3c2e71.css",
-    "static/js/main.7fb1bec3.js"
+    "static/css/main.77e4347a.css",
+    "static/js/main.e6cf0fee.js"
   ]
 }
