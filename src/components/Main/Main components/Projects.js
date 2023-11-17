@@ -54,9 +54,9 @@ const Projects = () => {
           {projectsData.map((project, index) => (
             <li
               key={index}
-              className="w-full lg:w-[48.5%] flex flex-col justify-center mb-4 lg:mb-0 p-4 lg:p-8 border-[1px] border-solid border-purple rounded-3xl"
+              className="w-full lg:w-[48.5%] flex flex-col justify-center mb-4 lg:mb-0 border-[1px] border-solid border-purple rounded-3xl transform transition-transform hover:scale-105 hover:opacity-100"
             >
-              <div className="w-full relative cursor-pointer mb-4 transform transition-transform hover:scale-105 hover:opacity-100">
+              <div className="w-full relative cursor-pointer p-4">
                 <h4 className="my-2 text-center sm:text-xl sm:my-4">
                   {project.title}
                 </h4>
@@ -65,12 +65,8 @@ const Projects = () => {
                   alt={project.title}
                   className="w-[100%]"
                 />
-                <ImageOverlay
-                  href={project.githubLink}
-                  link={project.websiteLink}
-                />
               </div>
-              <p className="mb-1 text-sm flex flex-row justify-center gap-4 sm:text-base sm:mb-0">
+              <p className="mb-1 text-sm flex flex-row justify-center gap-4 sm:text-base sm:mb-0 p-4">
                 {project.technologies.map((tech, i) => (
                   <span
                     key={i}
@@ -80,6 +76,10 @@ const Projects = () => {
                   </span>
                 ))}
               </p>
+              <ImageOverlay
+                  href={project.githubLink}
+                  link={project.websiteLink}
+                />
             </li>
           ))}
         </ul>
