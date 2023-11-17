@@ -17,7 +17,7 @@ const Footer = () => {
   return (
     <footer
       id="footer"
-      className="relative w-full bg-grey p-[5%] lg:py-20 flex flex-col justify-center items-center mt-8 sm:mt-12 lg:mt-16"
+      className="relative w-full p-[5%] lg:py-20 flex flex-col justify-center items-center mt-8 sm:mt-12 lg:mt-16"
     >
       <div className="w-full lg:w-[1100px] border-b-[1px] border-lightgray">
         <h1 className="text-xl sm:text-3xl lg:text-4xl font-medium tracking-0 lg:tracking-tight mb-4 sm:mb-16">

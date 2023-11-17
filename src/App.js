@@ -1,15 +1,14 @@
-import React, { Fragment } from "react";
 import Header from "./components/Header/Header";
 import Main from "./components/Main/Main";
 import Footer from "./components/Footer/Footer";
 
 function App() {
   return (
-    <Fragment>
+    <div className="w-full flex flex-col justify-center items-center bg-darkPurple">
       <Header />
       <Main />
       <Footer />
-    </Fragment>
+    </div>
   );
 }
 

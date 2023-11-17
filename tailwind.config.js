@@ -17,6 +17,10 @@ module.exports = {
           "100%": { opacity: 1, width: "100%", filter: "blur(0px)" },
         },
       },
+      backgroundImage: {
+        darkPurple:
+          "linear-gradient(38.73deg, rgba(204, 0, 187, 0.15) 0%, rgba(201, 32, 184, 0) 50%), linear-gradient(141.27deg, rgba(0, 70, 209, 0) 50%, rgba(0, 70, 209, 0.15) 100%)",
+      },
     },
     fontSize: {
       xs: "0.6rem",
@@ -31,7 +35,7 @@ module.exports = {
     },
     colors: {
       green: "rgb(78, 225, 160)",
-      blue: "#4169E1",
+      purple: "rgb(133, 76, 230)",
       black: "rgba(21, 21, 21, 0.7)",
       dark: "#242424",
       grey: "rgb(36, 36, 36)",

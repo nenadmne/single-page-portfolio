@@ -32,7 +32,7 @@ const Header = () => {
       </ul>
       <ProfileInfo />
       <PatternRings
-        divClass="absolute top-[20%] sm:top-0 left-[-20%] sm:left-0 transform translate-x-[-50%] z-[-1]"
+        divClass="absolute top-[20%] sm:top-0 left-[-20%] sm:left-0 transform translate-x-[-50%] z-0"
         imgClass="w-[375px] sm:w-[530px] h-[150px] object-contain"
       />
     </div>
