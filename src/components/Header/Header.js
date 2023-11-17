@@ -30,7 +30,7 @@ const Header = () => {
           {links.map((item, i) => (
             <p
               key={i}
-              className="text-xs sm:text-md w-fit pb-1 border-b-2 border-purple tracking-normal sm:tracking-slightly_wider hover:text-purple hover:border-white"
+              className="text-xs sm:text-md w-fit border-b-[1px] border-purple tracking-normal sm:tracking-slightly_wider hover:text-purple hover:border-white"
             >
               <Link to={item.href} smooth className="cursor-pointer">
                 {item.name}
