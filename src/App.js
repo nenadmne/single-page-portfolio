@@ -2,8 +2,9 @@ import { Fragment } from "react";
 import Header from "./components/Header/Header";
 import Main from "./components/Main/Main";
 import Footer from "./components/Footer/Footer";
+import Certificates from "./components/Certificates/Certificates";
 
-function App() {
+export default function App() {
   return (
     <Fragment>
       <Header />
@@ -12,9 +13,8 @@ function App() {
           <Main />
         </div>
       </div>
+      <Certificates />
       <Footer />
     </Fragment>
   );
 }
-
-export default App;
