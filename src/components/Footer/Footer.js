@@ -54,7 +54,7 @@ const Footer = () => {
           ))}
         </ul>
       </div>
-      <div className="flex justify-center flex-row gap-4 mt-16">
+      <div className="flex justify-center flex-row gap-4 mt-12">
         {links.map((item, i) => (
           <Link
             key={i}
@@ -69,7 +69,7 @@ const Footer = () => {
         ))}
       </div>
       <PatternRings
-        divClass="absolute top-[35%] sm:top-[45%] lg:top-[30%] left-0 transform translate-x-[-50%] z-0"
+        divClass="absolute top-[15%] sm:top-[45%] lg:top-[30%] left-0 transform translate-x-[-50%] z-0"
         imgClass="w-[375px] sm:w-[530px] h-[150px] object-contain"
       />
       <p className="text-xs sm:text-sm mt-4">
