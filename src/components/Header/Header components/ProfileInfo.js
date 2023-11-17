@@ -18,8 +18,10 @@ const ProfileInfo = () => {
           of back-end knowledge to create comprehensive digital experiences.
         </p>
       </div>
-      <div className="flex items-start justify-start w-[30%] relative">
-        <div className="absolute left-[-2rem] lg:left-[-8rem] top-[-2rem] lg:top-[-4rem] w-[12rem] lg:w-[34rem] h-[12rem] lg:h-[34rem] z-0">{ProfileSvg}</div>
+      <div className="flex items-start justify-start w-[40%] sm:w-[35%] lg:w-[30%] relative">
+        <div className="absolute left-[-2rem] sm:left-[-4rem] lg:left-[-8rem] top-[-2rem] sm:top-[-4rem] lg:top-[-4rem] w-[12rem] sm:w-[24rem] lg:w-[34rem] h-[12rem] sm:h-[24rem] lg:h-[34rem] z-0">
+          {ProfileSvg}
+        </div>
         <img
           src={profilePicture}
           className="w-full h-fit bg-dark rounded-full lg:rounded-none aspect-square lg:aspect-auto object-contain lg:object-cover z-10 shadow-shadow"

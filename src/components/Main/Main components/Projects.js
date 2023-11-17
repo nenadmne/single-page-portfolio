@@ -45,7 +45,7 @@ const Projects = () => {
   ];
 
   return (
-    <section className="projects w-full sm:mb-20 lg:w-[1100px] mt-4 sm:mt-12 p-[5%] sm:p-0">
+    <section className="projects w-full sm:mb-20 lg:w-[1100px] mt-4 sm:mt-12 p-[5%] sm:py-0 lg:p-0">
       <h3 className="text-2xl sm:text-3xl mb-10 sm:mb-12 text-bio text-center">
         Projects
       </h3>

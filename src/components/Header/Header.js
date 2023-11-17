@@ -24,13 +24,13 @@ const Header = () => {
   ];
 
   return (
-    <div className="w-full lg:w-[1100px] relative flex flex-col mt-0 lg:mt-12 p-[5%] sm:p-0">
+    <div className="w-full lg:w-[1100px] relative flex flex-col mt-0 lg:mt-12 p-[5%] lg:p-0">
       <ul className="flex flex-row w-full justify-between items-center list-none mb-4">
         <li className="flex flex-row gap-2 sm:gap-4 font-bold uppercase">
           {links.map((item, i) => (
             <p
               key={i}
-              className="text-xs sm:text-md w-fit border-b-[1px] border-purple tracking-normal sm:tracking-slightly_wider hover:text-purple hover:border-white"
+              className="text-xs sm:text-base w-fit border-b-[1px] border-purple tracking-normal sm:tracking-slightly_wider hover:text-purple hover:border-white"
             >
               <Link to={item.href} smooth className="cursor-pointer">
                 {item.name}
@@ -45,7 +45,7 @@ const Header = () => {
                 <img
                   src={link.imageSrc}
                   alt={`Social Icon ${index + 1}`}
-                  className="bg-white w-6 sm:w-8 hover:scale-110"
+                  className="bg-white w-6 lg:w-8 hover:scale-110"
                 />
               </a>
             </p>

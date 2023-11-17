@@ -3,7 +3,6 @@ import PatternRings from "../../../UI/PatternRings";
 import LanguagePack from "./LanguagePack";
 
 const Languages = () => {
-  
   const frontendItems = [
     {
       name: "HTML",
@@ -98,7 +97,7 @@ const Languages = () => {
   ];
 
   return (
-    <section className="skills flex flex-col items-center justify-center relative w-full px-[5%] sm:px-0 py-8 sm:py-16">
+    <section className="skills flex flex-col items-center justify-center relative w-full px-[5%] lg:px-0 py-8 sm:py-16">
       <h1 className="text-xl sm:text-3xl my-4 text-bio"> Skills </h1>
       <p className="text-base sm:text-md max-w-[550px] text-center mb-8 text-lightgray">
         Here are some of my skills on which I have been working on for the past
@@ -111,7 +110,7 @@ const Languages = () => {
       </div>
 
       <PatternRings
-        divClass="absolute right-[-15%] sm:right-0 bottom-[-15%] sm:bottom-[-35%] transform translate-x-1/2 z-0"
+        divClass="absolute right-[-15%] sm:right-0 bottom-[-13%] transform translate-x-1/2 z-0"
         imgClass="w-[375px] sm:w-[530px] h-[150px] object-contain"
       />
     </section>
