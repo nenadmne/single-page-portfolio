@@ -54,23 +54,27 @@ const Footer = () => {
           ))}
         </ul>
       </div>
-      <div className="flex justify-center flex-row gap-8 border-b-[1px] sm:gap-4 font-bold uppercase mt-12">
+      <div className="flex justify-center flex-row gap-4 mt-16">
         {links.map((item, i) => (
-          <p
+          <Link
             key={i}
-            className="text-xs sm:text-md w-fit tracking-normal sm:tracking-slightly_wider"
+            to={item.href}
+            smooth
+            className="cursor-pointer text-white"
           >
-            <Link to={item.href} smooth className="cursor-pointer text-white">
+            <button className="text-xs sm:text-md uppercase bg-btnPurple py-1 px-3 rounded-xl w-fit tracking-normal sm:tracking-slightly_wider">
               {item.name}
-            </Link>
-          </p>
+            </button>
+          </Link>
         ))}
       </div>
       <PatternRings
         divClass="absolute top-[35%] sm:top-[45%] lg:top-[30%] left-0 transform translate-x-[-50%] z-0"
         imgClass="w-[375px] sm:w-[530px] h-[150px] object-contain"
       />
-      <p className="text-xs mt-8">© 2023 Nenad Ćosović. All rights reserved.</p>
+      <p className="text-xs sm:text-sm mt-4">
+        © 2023 Nenad Ćosović. All rights reserved.
+      </p>
     </footer>
   );
 };

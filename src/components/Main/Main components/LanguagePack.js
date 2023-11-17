@@ -1,6 +1,6 @@
 const LanguagePack = ({ data, name }) => {
   return (
-    <div className="full lg:w-[48%] flex flex-col justify-start items-center border-solid border-[1px] border-purple rounded-xl p-4 sm:p-6 bg-black">
+    <div className="full lg:w-[48%] flex flex-col justify-start items-center border-solid border-[1px] border-purple rounded-xl p-4 sm:p-6 bg-black shadow-shadow">
       <h2 className="h-fit mb-4 text-xl sm:text-2xl text-white">{name}</h2>
       <ul className="w-full h-fit flex flex-row flex-wrap justify-center list-none m-0 gap-4">
         {data.map((item, index) => (

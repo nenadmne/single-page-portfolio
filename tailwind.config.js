@@ -20,6 +20,11 @@ module.exports = {
       backgroundImage: {
         darkPurple:
           "linear-gradient(38.73deg, rgba(204, 0, 187, 0.15) 0%, rgba(201, 32, 184, 0) 50%), linear-gradient(141.27deg, rgba(0, 70, 209, 0) 50%, rgba(0, 70, 209, 0.15) 100%)",
+        btnPurple:
+          "linear-gradient(225deg, rgb(132, 0, 255) 0%, rgb(230, 0, 255) 100%)",
+      },
+      boxShadow: {
+        shadow: "0px 4px 24px rgba(23, 92, 230, 0.15)",
       },
     },
     fontSize: {
@@ -50,9 +55,6 @@ module.exports = {
       normal: "1px",
       slightly_wider: "2px",
       wide: "0.2rem",
-    },
-    boxShadow: {
-      shadow: "rgba(0, 0, 0, 0.4) 0px 0px 12px 4px",
     },
   },
 };
