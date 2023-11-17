@@ -1,4 +1,5 @@
 import profilePicture from "../../../assets/profile.png";
+import { ProfileSvg } from "../../../UI/ProfileSvg";
 
 const ProfileInfo = () => {
   return (
@@ -17,10 +18,11 @@ const ProfileInfo = () => {
           of back-end knowledge to create comprehensive digital experiences.
         </p>
       </div>
-      <div className="flex items-start justify-start w-[30%]">
+      <div className="flex items-start justify-start w-[30%] relative">
+        <div className="absolute left-[-2rem] lg:left-[-8rem] top-[-2rem] lg:top-[-4rem] w-[12rem] lg:w-[34rem] h-[12rem] lg:h-[34rem] z-0">{ProfileSvg}</div>
         <img
           src={profilePicture}
-          className="w-full h-fit bg-dark rounded-full lg:rounded-none aspect-square lg:aspect-auto object-contain lg:object-cover"
+          className="w-full h-fit bg-dark rounded-full lg:rounded-none aspect-square lg:aspect-auto object-contain lg:object-cover z-10 shadow-shadow"
         />
       </div>
     </section>
