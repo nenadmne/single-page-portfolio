@@ -1,13 +1,6 @@
-import { Link } from "react-scroll";
 import profilePicture from "../../../assets/profile.png";
 
 const ProfileInfo = () => {
-  const links = [
-    { name: "Skills", href: "skills" },
-    { name: "Projects", href: "projects" },
-    { name: "Certificates", href: "certificates" },
-    { name: "Contact", href: "footer" },
-  ];
 
   return (
     <section className="flex flex-row w-full lg:w-[1100px] pb-8 sm:pb-20 sm:gap-4">
@@ -24,19 +17,6 @@ const ProfileInfo = () => {
           primary expertise lies in front-end development, and I bring a touch
           of back-end knowledge to create comprehensive digital experiences.
         </p>
-
-        <div className="flex flex-row gap-2 sm:gap-4 mt-8 sm:mt-12 font-bold uppercase">
-          {links.map((item, i) => (
-            <p
-              key={i}
-              className="text-xs sm:text-md w-fit pb-1 border-b-2 border-purple tracking-normal sm:tracking-slightly_wider hover:text-purple hover:border-white"
-            >
-              <Link to={item.href} smooth className="cursor-pointer">
-                {item.name}
-              </Link>
-            </p>
-          ))}
-        </div>
       </div>
       <div className="flex items-start justify-start w-[30%]">
         <img
