@@ -5,7 +5,6 @@ import linkedImage from "../../assets/linked.svg";
 import PatternRings from "../../UI/PatternRings";
 
 const Header = () => {
-  
   const socialLinks = [
     {
       href: "https://github.com/nenadmne",
@@ -55,7 +54,7 @@ const Header = () => {
       </ul>
       <ProfileInfo />
       <PatternRings
-        divClass="absolute top-[20%] sm:top-[15%] lg:top-[22%] left-[-20%] sm:left-[-10%] transform translate-x-[-50%] z-0"
+        divClass="absolute top-[20%] sm:top-[15%] lg:top-[22%] left-[-15%] sm:left-[-10%] transform translate-x-[-50%] z-0"
         imgClass="w-[375px] sm:w-[530px] h-[150px] object-contain"
       />
     </div>

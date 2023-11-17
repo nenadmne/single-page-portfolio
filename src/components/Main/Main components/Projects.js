@@ -6,6 +6,7 @@ import sessionImg from "../../../assets/Session/SessionImg.png";
 import ImageOverlay from "../../Overlays/ImageOverlay";
 
 const Projects = () => {
+  
   const projectsData = [
     {
       title: "Online-Store",
@@ -45,8 +46,8 @@ const Projects = () => {
   ];
 
   return (
-    <section className="projects w-full sm:mb-20 lg:w-[1100px] mt-12">
-      <h3 className="text-2xl sm:text-3xl mb-4 sm:mb-12 text-bio text-center">
+    <section className="projects w-full sm:mb-20 lg:w-[1100px] mt-4 sm:mt-12 p-[5%] sm:p-0">
+      <h3 className="text-2xl sm:text-3xl mb-10 sm:mb-12 text-bio text-center">
         Projects
       </h3>
       <div>
@@ -77,9 +78,9 @@ const Projects = () => {
                 ))}
               </p>
               <ImageOverlay
-                  href={project.githubLink}
-                  link={project.websiteLink}
-                />
+                href={project.githubLink}
+                link={project.websiteLink}
+              />
             </li>
           ))}
         </ul>

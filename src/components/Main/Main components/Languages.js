@@ -3,6 +3,7 @@ import PatternRings from "../../../UI/PatternRings";
 import LanguagePack from "./LanguagePack";
 
 const Languages = () => {
+  
   const frontendItems = [
     {
       name: "HTML",
@@ -110,7 +111,7 @@ const Languages = () => {
       </div>
 
       <PatternRings
-        divClass="absolute right-[-10%] sm:right-0 bottom-[-55%] sm:bottom-[-35%] transform translate-x-1/2 z-0"
+        divClass="absolute right-[-15%] sm:right-0 bottom-[-15%] sm:bottom-[-35%] transform translate-x-1/2 z-0"
         imgClass="w-[375px] sm:w-[530px] h-[150px] object-contain"
       />
     </section>
