@@ -25,7 +25,7 @@ const Header = () => {
 
   return (
     <div className="w-full lg:w-[1100px] relative flex flex-col mt-0 lg:mt-12 p-[5%] sm:p-0">
-      <ul className="flex flex-row w-full justify-between items-center list-none mb-4 lg:mb-0">
+      <ul className="flex flex-row w-full justify-between items-center list-none mb-4">
         <li className="flex flex-row gap-2 sm:gap-4 font-bold uppercase">
           {links.map((item, i) => (
             <p
@@ -40,7 +40,7 @@ const Header = () => {
         </li>
         <li className="flex flex-row gap-2 sm:gap-4">
           {socialLinks.map((link, index) => (
-            <li key={index}>
+            <p key={index}>
               <a target="_blank" href={link.href} className="border-0 pointer">
                 <img
                   src={link.imageSrc}
@@ -48,7 +48,7 @@ const Header = () => {
                   className="bg-white w-6 sm:w-8 hover:scale-110"
                 />
               </a>
-            </li>
+            </p>
           ))}
         </li>
       </ul>

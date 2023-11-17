@@ -52,7 +52,7 @@ module.exports = {
       wide: "0.2rem",
     },
     boxShadow: {
-      shadow: "4px 4px 4px green",
+      shadow: "rgba(0, 0, 0, 0.4) 0px 0px 12px 4px",
     },
   },
 };
