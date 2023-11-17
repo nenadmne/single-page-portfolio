@@ -37,10 +37,11 @@ module.exports = {
       green: "rgb(78, 225, 160)",
       purple: "rgb(133, 76, 230)",
       black: "rgba(21, 21, 21, 0.7)",
+      lighterBlack: "rgba(26, 26, 26)",
       dark: "#242424",
       grey: "rgb(36, 36, 36)",
       white: "white",
-      lightgray: "lightgray",
+      lightgray: "rgba(242, 243, 244, 0.5)",
       bio: "rgb(217, 217, 217)",
     },
     letterSpacing: {
@@ -53,5 +54,4 @@ module.exports = {
       shadow: "4px 4px 4px green",
     },
   },
-  plugins: [],
 };

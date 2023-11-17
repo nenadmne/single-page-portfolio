@@ -97,7 +97,7 @@ const Languages = () => {
   ];
 
   return (
-    <section className="flex flex-col items-center justify-center relative w-full py-16">
+    <section className="skills flex flex-col items-center justify-center relative w-full py-16">
       <h1 className="text-3xl mb-4 text-bio"> Skills </h1>
       <p className="text-md max-w-[550px] text-center mb-8 text-lightgray">
         Here are some of my skills on which I have been working on for the past
