@@ -36,6 +36,7 @@ module.exports = {
     colors: {
       green: "rgb(78, 225, 160)",
       purple: "rgb(133, 76, 230)",
+      lightPurple: "rgba(133, 76, 230, 0.082)",
       black: "rgba(21, 21, 21, 0.7)",
       lighterBlack: "rgba(26, 26, 26)",
       dark: "#242424",

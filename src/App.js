@@ -7,12 +7,12 @@ function App() {
   return (
     <Fragment>
       <Header />
-      <div className="w-full flex bg-lighterBlack clip-border">
-        <div className="w-full flex flex-col items-center justify-center bg-darkPurple clip-border">
+      <div className="w-full flex bg-lighterBlack clip-border-bot">
+        <div className="w-full flex flex-col items-center justify-center bg-darkPurple clip-border-bot">
           <Main />
-          <Footer />
         </div>
       </div>
+      <Footer />
     </Fragment>
   );
 }

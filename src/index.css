@@ -3,19 +3,22 @@
 @tailwind utilities;
 
 @layer utilities {
-  .clip-border {
+  .clip-border-bot {
     clip-path: polygon(100% 0, 30% 3%, 0 0, 0 100%, 100% 100%);
   }
+  .clip-border-top {
+    clip-path: polygon(0 0, 100% 0, 70% 3%, 100% 100%, 0 100%);
+  }
 
-  .clip-border::before {
-    content: '';
+  .clip-border-bot::before,
+  .clip-border-top::before {
+    content: "";
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    /* background:rgba(26, 26, 26); */
-    clip-path: inherit; 
+    clip-path: inherit;
     z-index: -1;
   }
 }
