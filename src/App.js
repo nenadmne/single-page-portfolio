@@ -8,12 +8,12 @@ export default function App() {
   return (
     <Fragment>
       <Header />
-      <div className="w-full flex bg-lighterBlack clip-border-bot">
-        <div className="w-full flex flex-col items-center justify-center bg-darkPurple clip-border-bot">
+      <div className="w-full flex flex-col bg-lighterBlack clip-border-top">
+        <div className="w-full flex flex-col items-center justify-center bg-darkPurple ">
           <Main />
+          <Certificates />
         </div>
       </div>
-      <Certificates />
       <Footer />
     </Fragment>
   );

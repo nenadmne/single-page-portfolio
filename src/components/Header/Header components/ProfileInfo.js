@@ -1,7 +1,6 @@
 import profilePicture from "../../../assets/profile.png";
 
 const ProfileInfo = () => {
-
   return (
     <section className="flex flex-row w-full lg:w-[1100px] pb-8 sm:pb-20 sm:gap-4">
       <div className="w-[70%]">
