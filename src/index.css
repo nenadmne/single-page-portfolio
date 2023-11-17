@@ -3,7 +3,6 @@
 @tailwind utilities;
 
 @layer utilities {
-
   .clip-border-top {
     clip-path: polygon(100% 0, 30% 1.5%, 0 0, 0 100%, 100% 100%);
   }
@@ -22,6 +21,16 @@
     height: 100%;
     clip-path: inherit;
     z-index: -1;
+  }
+
+  @media (max-width: 650px) {
+  .clip-border-top {
+    clip-path: polygon(100% 0, 30% 1%, 0 0, 0 100%, 100% 100%);
+  }
+
+  .clip-border-bot {
+    clip-path: polygon(100% 2%, 30% 0%, 0 2%, 0 100%, 100% 100%);
+  }
   }
 }
 
@@ -60,10 +69,6 @@ body,
 @media (max-width: 650px) {
   html {
     min-width: 375px;
-  }
-
-  #root {
-    padding: 5%;
   }
 
   body,

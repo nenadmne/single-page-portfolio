@@ -25,8 +25,8 @@ const Header = () => {
   ];
 
   return (
-    <div className="w-full lg:w-[1100px] relative flex flex-col mt-0 lg:mt-12">
-      <ul className="flex flex-row w-full justify-between items-center list-none p-0 lg:py-4 mb-4 lg:mb-0">
+    <div className="w-full lg:w-[1100px] relative flex flex-col mt-0 lg:mt-12 p-[5%] sm:p-0">
+      <ul className="flex flex-row w-full justify-between items-center list-none mb-4 lg:mb-0">
         <li className="flex flex-row gap-2 sm:gap-4 font-bold uppercase">
           {links.map((item, i) => (
             <p

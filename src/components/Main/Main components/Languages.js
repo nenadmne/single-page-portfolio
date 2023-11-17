@@ -97,13 +97,13 @@ const Languages = () => {
   ];
 
   return (
-    <section className="skills flex flex-col items-center justify-center relative w-full py-16">
-      <h1 className="text-3xl mb-4 text-bio"> Skills </h1>
-      <p className="text-md max-w-[550px] text-center mb-8 text-lightgray">
+    <section className="skills flex flex-col items-center justify-center relative w-full px-[5%] sm:px-0 py-8 sm:py-16">
+      <h1 className="text-xl sm:text-3xl mb-4 text-bio"> Skills </h1>
+      <p className="text-base sm:text-md max-w-[550px] text-center mb-8 text-lightgray">
         Here are some of my skills on which I have been working on for the past
         2 years.
       </p>
-      <div className="flex flex-row justify-center flex-wrap relative lg:w-[1100px] gap-8">
+      <div className="flex flex-row justify-center flex-wrap relative lg:w-[1100px] gap-4 sm:gap-8">
         <LanguagePack name="Frontend" data={frontendItems} />
         <LanguagePack name="Backend" data={backendItems} />
         <LanguagePack name="Others" data={others} />

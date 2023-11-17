@@ -2,7 +2,7 @@ import profilePicture from "../../../assets/profile.png";
 
 const ProfileInfo = () => {
   return (
-    <section className="flex flex-row w-full lg:w-[1100px] pb-8 sm:pb-20 sm:gap-4">
+    <section className="flex flex-row w-full lg:w-[1100px] pb-4 sm:pb-20 sm:gap-4">
       <div className="w-[70%]">
         <h2 className="text-xl sm:text-3xl lg:text-5xl font-bold w-full mb-12 sm:mb-8">
           Nice to meet you! I'm
