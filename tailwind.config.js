@@ -29,7 +29,7 @@ module.exports = {
       },
 
       boxShadow: {
-        shadow: "0px 4px 24px rgba(23, 92, 230, 0.15)",
+        shadow: "0px 4px 8px rgba(23, 92, 230, 0.15)",
       },
 
       fontSize: {
