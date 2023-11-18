@@ -1,19 +1,8 @@
 import { Link } from "react-scroll";
-import gitImage from "../../assets/git.svg";
-import linkedImage from "../../assets/linked.svg";
 import PatternRings from "../../UI/PatternRings";
+import ProfileLinks from "../../UI/ProfileLinks";
 
 const Footer = () => {
-  const socialLinks = [
-    {
-      href: "https://github.com/nenadmne",
-      imageSrc: gitImage,
-    },
-    {
-      href: "https://www.linkedin.com/in/nenad-%C4%87osovi%C4%87-9550aa28a/",
-      imageSrc: linkedImage,
-    },
-  ];
 
   const links = [
     { name: "Skills", href: "skills" },
@@ -40,19 +29,7 @@ const Footer = () => {
         <span className="text-sm sm:text-md text-lightgray tracking-0 sm:tracking-slightly_wider">
           cosovicnenad14@gmail.com
         </span>
-        <ul className="flex flex-row justify-end items-center list-none gap-4 p-0">
-          {socialLinks.map((link, index) => (
-            <li key={index}>
-              <a target="_blank" href={link.href} className="border-0 pointer">
-                <img
-                  src={link.imageSrc}
-                  alt={`Social Icon ${index + 1}`}
-                  className="bg-white w-6 sm:w-8 hover:scale-110"
-                />
-              </a>
-            </li>
-          ))}
-        </ul>
+        <ProfileLinks />
       </div>
       <div className="flex justify-center flex-row gap-4 mt-12">
         {links.map((item, i) => (
@@ -62,7 +39,7 @@ const Footer = () => {
             smooth
             className="cursor-pointer text-white"
           >
-            <button className="text-xs sm:text-md uppercase bg-btnPurple py-1 px-3 rounded-xl w-fit tracking-normal sm:tracking-slightly_wider">
+            <button className="text-xs sm:text-base uppercase bg-darkPurple py-1 px-3 rounded-xl w-fit tracking-normal sm:tracking-slightly_wider hover:opacity-70">
               {item.name}
             </button>
           </Link>

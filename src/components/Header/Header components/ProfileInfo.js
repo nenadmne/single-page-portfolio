@@ -24,7 +24,7 @@ const ProfileInfo = () => {
         </div>
         <img
           src={profilePicture}
-          className="w-full h-fit bg-dark rounded-full lg:rounded-none aspect-square lg:aspect-auto object-contain lg:object-cover z-10 shadow-shadow"
+          className="w-full h-fit bg-dark rounded-full lg:rounded-xl aspect-square lg:aspect-auto object-contain lg:object-cover z-10 shadow-shadow"
         />
       </div>
     </section>

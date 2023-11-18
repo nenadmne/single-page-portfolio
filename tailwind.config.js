@@ -45,10 +45,10 @@ module.exports = {
       },
 
       colors: {
-        green: "rgb(78, 225, 160)",
         purple: "rgb(133, 76, 230)",
+        blue: "#7366BD",
         lightPurple: "rgba(133, 76, 230, 0.082)",
-        black: "rgba(21, 21, 21, 0.7)",
+        black: "rgba(21, 21, 21, 0.85)",
         lighterBlack: "rgba(26, 26, 26)",
         dark: "#242424",
         grey: "rgb(36, 36, 36)",

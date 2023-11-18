@@ -3,6 +3,7 @@ import ProfileInfo from "./Header components/ProfileInfo";
 import gitImage from "../../assets/git.svg";
 import linkedImage from "../../assets/linked.svg";
 import PatternRings from "../../UI/PatternRings";
+import ProfileLinks from "../../UI/ProfileLinks";
 
 const Header = () => {
   const socialLinks = [
@@ -38,19 +39,7 @@ const Header = () => {
             </p>
           ))}
         </li>
-        <li className="flex flex-row gap-2 sm:gap-4">
-          {socialLinks.map((link, index) => (
-            <p key={index}>
-              <a target="_blank" href={link.href} className="border-0 pointer">
-                <img
-                  src={link.imageSrc}
-                  alt={`Social Icon ${index + 1}`}
-                  className="bg-white w-6 lg:w-8 hover:scale-110"
-                />
-              </a>
-            </p>
-          ))}
-        </li>
+        <ProfileLinks />
       </ul>
       <ProfileInfo />
       <PatternRings
