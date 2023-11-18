@@ -3,7 +3,6 @@ import PatternRings from "../../UI/PatternRings";
 import ProfileLinks from "../../UI/ProfileLinks";
 
 const Footer = () => {
-
   const links = [
     { name: "Skills", href: "skills" },
     { name: "Projects", href: "projects" },

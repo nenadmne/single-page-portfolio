@@ -1,5 +1,4 @@
 const ImageOverlay = (props) => {
-  
   return (
     <div className="absolute top-0 left-0 w-full h-full flex flex-col justify-center items-center gap-4 lg:gap-2 bg-black opacity-100 sm:opacity-0 transition-opacity duration-200 z-2 hover:opacity-100 rounded-3xl">
       <a

@@ -2,7 +2,6 @@ import typeImg from "../../assets/Sertificates/typesc.jpg";
 import reactImg from "../../assets/Sertificates/react.jpg";
 
 export default function Certificates() {
-  
   const data = [
     {
       href: "https://www.udemy.com/certificate/UC-bd9ca052-ef58-432c-b758-1fbeac2212a0/",
