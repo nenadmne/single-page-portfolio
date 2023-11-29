@@ -1,5 +1,7 @@
 import typeImg from "../../assets/Sertificates/typesc.jpg";
 import reactImg from "../../assets/Sertificates/react.jpg";
+import cortexImg from "../../assets/Sertificates/Cortex.jpg";
+import coinisImg from "../../assets/Sertificates/Coinis.jpg";
 
 export default function Certificates() {
   const data = [
@@ -13,6 +15,14 @@ export default function Certificates() {
       src: typeImg,
       alt: "certificate-typescript",
     },
+    {
+      src: cortexImg,
+      alt: "certificate-cortex",
+    },
+    {
+      src: coinisImg,
+      alt: "certificate-coinis",
+    },
   ];
 
   return (
@@ -23,10 +33,14 @@ export default function Certificates() {
         </h2>
         <div className="flex flex-col gap-8">
           {data.map((item) => (
-            <a key={item.alt} href={item.href}>
+            <a
+              key={item.alt}
+              href={item.href ? item.href : null}
+              className="flex justify-center items-center"
+            >
               <img
                 src={item.src}
-                className="rounded-md cursor-pointer"
+                className="rounded-md cursor-pointer w-full sm:w-[50%]"
                 alt={item.alt}
               />
             </a>
