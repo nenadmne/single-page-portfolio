@@ -66,6 +66,10 @@ const Languages = () => {
       imgSrc:
         "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg",
     },
+    {
+      name: "Firebase",
+      imgSrc: "https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg"
+    }
   ];
 
   const others = [
