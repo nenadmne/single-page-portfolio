@@ -13,6 +13,7 @@ export default function Certificates() {
     },
     {
       src: nextImg,
+      href: "https://www.udemy.com/certificate/UC-cb737ff6-ac7c-4258-8c1c-6db19531daf7/",
       alt: "certificate-nextJS",
     },
     {
