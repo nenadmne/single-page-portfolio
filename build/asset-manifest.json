@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/single-page-portfolio/static/css/main.2fa4c757.css",
-    "main.js": "/single-page-portfolio/static/js/main.ef004fbd.js",
+    "main.js": "/single-page-portfolio/static/js/main.567068f7.js",
     "static/media/Cortex.jpg": "/single-page-portfolio/static/media/Cortex.8d2cb520029123b79343.jpg",
     "static/media/Coinis.jpg": "/single-page-portfolio/static/media/Coinis.5cd60863b120b940f80e.jpg",
     "static/media/SessionImg.png": "/single-page-portfolio/static/media/SessionImg.379b36ef5edc5418911a.png",
@@ -11,16 +11,17 @@
     "static/media/react.jpg": "/single-page-portfolio/static/media/react.136378fea96a905dcdd3.jpg",
     "static/media/profile.png": "/single-page-portfolio/static/media/profile.f02e8cde159c19c74c79.png",
     "static/media/typesc.jpg": "/single-page-portfolio/static/media/typesc.648d03cf3ac8a8ba13eb.jpg",
+    "static/media/next.jpg": "/single-page-portfolio/static/media/next.68dac87a446521e45d84.jpg",
     "static/media/library.png": "/single-page-portfolio/static/media/library.2e64d03aa34ab6a600a8.png",
     "static/media/git.svg": "/single-page-portfolio/static/media/git.a8cf249d0c68cebc15d0ae901bbd5d90.svg",
     "index.html": "/single-page-portfolio/index.html",
     "static/media/linked.svg": "/single-page-portfolio/static/media/linked.b92d57655f126449e38bcb0faeca49fd.svg",
     "static/media/pattern-rings.svg": "/single-page-portfolio/static/media/pattern-rings.e62a24d55bee668faa1f245882fad1b7.svg",
     "main.2fa4c757.css.map": "/single-page-portfolio/static/css/main.2fa4c757.css.map",
-    "main.ef004fbd.js.map": "/single-page-portfolio/static/js/main.ef004fbd.js.map"
+    "main.567068f7.js.map": "/single-page-portfolio/static/js/main.567068f7.js.map"
   },
   "entrypoints": [
     "static/css/main.2fa4c757.css",
-    "static/js/main.ef004fbd.js"
+    "static/js/main.567068f7.js"
   ]
 }

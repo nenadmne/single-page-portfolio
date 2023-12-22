@@ -14,7 +14,7 @@ const ProfileLinks = () => {
   ];
 
   return (
-    <ul className="flex flex-row justify-end items-center list-none gap-3 sm:gap-4 p-0">
+    <ul className="flex flex-row justify-end items-center list-none gap-3 sm:gap-4 p-0 z-10">
       {socialLinks.map((link, index) => (
         <li key={index}>
           <a target="_blank" href={link.href} className="border-0 pointer">
