@@ -1,7 +1,8 @@
-import typeImg from "../../assets/Sertificates/typesc.jpg";
-import reactImg from "../../assets/Sertificates/react.jpg";
-import cortexImg from "../../assets/Sertificates/Cortex.jpg";
-import coinisImg from "../../assets/Sertificates/Coinis.jpg";
+import typeImg from "../../assets/Certificates/typesc.jpg";
+import reactImg from "../../assets/Certificates/react.jpg";
+import cortexImg from "../../assets/Certificates/Cortex.jpg";
+import coinisImg from "../../assets/Certificates/Coinis.jpg";
+import nextImg from "../../assets/Certificates/next.jpg";
 
 export default function Certificates() {
   const data = [
@@ -9,6 +10,10 @@ export default function Certificates() {
       href: "https://www.udemy.com/certificate/UC-bd9ca052-ef58-432c-b758-1fbeac2212a0/",
       src: reactImg,
       alt: "certificate-react",
+    },
+    {
+      src: nextImg,
+      alt: "certificate-nextJS",
     },
     {
       href: "https://www.udemy.com/certificate/UC-8b958eed-bf51-474b-b160-ca90690593d6/",
