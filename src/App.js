@@ -9,7 +9,7 @@ export default function App() {
     <Fragment>
       <Header />
       <div className="w-full flex flex-col bg-lighterBlack clip-border-top">
-        <div className="w-full flex flex-col items-center justify-center bg-darkPurple">
+        <div className="w-full flex flex-col items-center justify-center">
           <Main />
           <Certificates />
         </div>
