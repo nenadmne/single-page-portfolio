@@ -4,7 +4,6 @@ module.exports = {
 
   theme: {
     extend: {
-
       screens: {
         sm: "650px",
         lg: "1200px",
@@ -23,9 +22,7 @@ module.exports = {
 
       backgroundImage: {
         darkPurple:
-          "linear-gradient(38.73deg, rgba(204, 0, 187, 0.15) 0%, rgba(201, 32, 184, 0) 50%), linear-gradient(141.27deg, rgba(0, 70, 209, 0) 50%, rgba(0, 70, 209, 0.15) 100%)",
-        btnPurple:
-          "linear-gradient(225deg, rgb(132, 0, 255) 0%, rgb(230, 0, 255) 100%)",
+          "linear-gradient(109.6deg, rgb(9, 9, 121) 11.2%, rgb(144, 6, 161) 53.7%, rgb(0, 212, 255) 100.2%)",
       },
 
       boxShadow: {

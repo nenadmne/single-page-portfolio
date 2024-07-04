@@ -1,6 +1,6 @@
 import storeImg from "../../../assets/Online-Store/Homepage.png";
 import meetupImg from "../../../assets/Meetup/meetup.png";
-import silkRoadImg from "../../../assets/SilkRoad/Silkroad.png";
+import quizImg from "../../../assets/Quiz/quizImg.png";
 import libraryImg from "../../../assets/Online-Library/library.png";
 import sessionImg from "../../../assets/Session/SessionImg.png";
 import ImageOverlay from "../../Overlays/ImageOverlay";
@@ -29,10 +29,10 @@ const Projects = () => {
       technologies: ["React JS", "Redux Toolkit", "Axios"],
     },
     {
-      title: "SilkRoad",
-      imgSrc: silkRoadImg,
-      githubLink: "https://github.com/nenadmne/coinis-online-store",
-      websiteLink: "https://silkroad-online-store.netlify.app",
+      title: "Quiz",
+      imgSrc: quizImg,
+      githubLink: "https://github.com/nenadmne/quiz",
+      websiteLink: "https://quiz-cyan-tau.vercel.app/",
       technologies: ["React JS", "Context API", "MUI", "Responsive Design"],
     },
     {
